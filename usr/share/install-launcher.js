@@ -95,8 +95,8 @@ Launcher.install = function (things, fn) {
   var telebitRoot = path.join(__dirname, '../..');
   var vars = {
     telebitPath: telebitRoot
-  , telebitUser: TELEBIT_USER
-  , telebitGroup: TELEBIT_GROUP
+  , telebitUser: process.env.TELEBIT_USER
+  , telebitGroup: process.env.TELEBIT_GROUP
   , telebitRwDirs: [
       telebitRoot
     , path.join(os.homedir(), '.config/telebit')
