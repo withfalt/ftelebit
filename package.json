@@ -1,7 +1,7 @@
 {
-  "name": "telebit",
-  "version": "0.20.8",
-  "description": "Break out of localhost. Connect to any device from anywhere over any tcp port or securely in a browser. A secure tunnel. A poor man's reverse VPN.",
+  "name": "ftelebit",
+  "version": "f0.20.8",
+  "description": "Falt's special version of Telebit",
   "main": "lib/remote.js",
   "files": [
     "bin",
@@ -46,12 +46,9 @@
     "vpn",
     "sni"
   ],
-  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "author": "Falt <hi@falt.host> (https://falt.host)",
   "license": "(MIT OR Apache-2.0)",
-  "bugs": {
-    "url": "https://git.coolaj86.com/coolaj86/telebit.js/issues"
-  },
-  "homepage": "https://git.coolaj86.com/coolaj86/telebit.js#readme",
+  "homepage": "https://github.com/withfalt/ftelebit",
   "dependencies": {
     "@coolaj86/urequest": "^1.3.5",
     "finalhandler": "^1.1.1",
