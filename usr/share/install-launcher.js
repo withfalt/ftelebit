@@ -138,13 +138,14 @@ Launcher.install = function (things, fn) {
       var killed = 0;
       var err;
       var args = [
-        path.join(telebitRoot, 'bin/telebitd.js')
+        vars.telebitNode
+      , path.join(telebitRoot, 'bin/telebitd.js')
       , 'daemon'
       , '--config'
       , vars.telebitdConfig
       ];
       var subprocess = spawn(
-        vars.telebitNode
+        "nohup"
       , args
       , { detached: true
         , stdio: [ 'ignore', stdout, stderr ]
