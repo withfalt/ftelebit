@@ -1,3 +1,9 @@
+# `ftelebit`
+`ftelebit` is a version of Telebit customized for use in Falt Host servers/containers. This version is typically not suitable for normal use.
+
+---
+**original README**
+
 # Telebit&trade; Remote | a [Root](https://rootprojects.org) project
 
 Because friends don't let friends localhost&trade;
