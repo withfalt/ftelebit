@@ -1,6 +1,6 @@
 {
   "name": "ftelebit",
-  "version": "0.20.81",
+  "version": "0.20.82",
   "description": "Falt's special version of Telebit",
   "main": "lib/remote.js",
   "files": [
