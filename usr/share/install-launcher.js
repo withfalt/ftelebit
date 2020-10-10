@@ -138,7 +138,8 @@ Launcher.install = function (things, fn) {
       var killed = 0;
       var err;
       var args = [
-        path.join(telebitRoot, 'bin/telebitd.js')
+        'nohup'
+      , path.join(telebitRoot, 'bin/telebitd.js')
       , 'daemon'
       , '--config'
       , vars.telebitdConfig
